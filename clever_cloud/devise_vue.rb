@@ -180,6 +180,7 @@ after_bundle do
   # Webpacker / Yarn
   ########################################
   run 'yarn add popper.js jquery'
+  run 'yarn add vue@next'
   run 'yarn add vue-turbolinks'
   append_file 'app/javascript/packs/application.js', <<~JS
 
